@@ -9,7 +9,9 @@ import webbrowser
 
 def rastgele_string(uzunluk):
     karakterler = string.ascii_letters + string.digits
-    return ''.join(random.choice(karakterler) for i in range(uzunluk))
+    ilk_karakter = random.choice(string.ascii_letters)  # İlk karakterin harf olması gerektiğinden
+    kalan_karakterler = ''.join(random.choice(karakterler) for i in range(uzunluk - 1))
+    return ilk_karakter + kalan_karakterler
 
 class NMSFUD(QtWidgets.QMainWindow):
     def __init__(self):
@@ -178,4 +180,3 @@ if __name__ == '__main__':
     pencere.show()
     hata_pencere.show()  # Hata bildirme ekranı gösterildi
     sys.exit(app.exec_())
-

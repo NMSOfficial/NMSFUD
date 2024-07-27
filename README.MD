@@ -1,1 +1,1 @@
-Programın kullanma kılavuzu TurkHackTeam.org adresinde NMSHacking tarafından paylaşıldı.
+Programın kullanma kılavuzu TurkHackTeam.org ve yazilimforum.com.tr adreslerinde NMSHacking tarafından paylaşıldı.
